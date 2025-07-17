@@ -10,6 +10,7 @@ public class StudentApplication {
 		SpringApplication.run(StudentApplication.class, args);
 		System.out.println("hello from main");
 		System.out.println("hello from test1");
+		System.out.println("hello from test2");
 	}
 
 }
