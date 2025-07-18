@@ -17,6 +17,9 @@ public class StudentApplication {
 		System.out.println("hello second line from test3");
 		System.out.println("hello third line from test3");
 		System.out.println("hello fourth line from test3");
+		System.out.println("hello fourth line from test3");
+		System.out.println("hello from test2");
+		System.out.println("hello from test1");
 	}
 
 }
