@@ -13,6 +13,7 @@ public class StudentApplication {
 		System.out.println("hello from test2");
 		System.out.println("hello from test3");
 		System.out.println("hello from main 2nd time");
+		System.out.println("hello from main 3rd time");
 	}
 
 }
