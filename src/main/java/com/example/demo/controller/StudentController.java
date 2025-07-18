@@ -11,6 +11,9 @@ import java.util.List;
 @RestController
 public class StudentController {
 
+    public void ghi(){
+        System.out.println("multiply");
+    }
     @Autowired
     StudentService studentService;
 
