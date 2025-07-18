@@ -11,6 +11,10 @@ import java.util.List;
 @RestController
 public class StudentController {
 
+    public void def(){
+        System.out.println("Subtract");
+    }
+
     @Autowired
     StudentService studentService;
 
