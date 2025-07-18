@@ -19,6 +19,10 @@ public class StudentController {
     public void ghi(){
         System.out.println("multiply");
     }
+    public void def(){
+        System.out.println("Subtract");
+    }
+
     @Autowired
     StudentService studentService;
 
