@@ -4,12 +4,17 @@ import com.example.demo.entity.Student;
 import com.example.demo.service.StudentService;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.origin.SystemEnvironmentOrigin;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
 public class StudentController {
+
+    public void jkl(){
+        System.out.println("div");
+    }
 
     @Autowired
     StudentService studentService;
