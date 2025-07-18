@@ -9,6 +9,8 @@ public class StudentApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(StudentApplication.class, args);
 		System.out.println("hello from test3");
+		System.out.println("hello second line from test3");
 	}
 
 }
+
