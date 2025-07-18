@@ -16,6 +16,9 @@ public class StudentController {
         System.out.println("div");
     }
 
+    public void ghi(){
+        System.out.println("multiply");
+    }
     @Autowired
     StudentService studentService;
 
