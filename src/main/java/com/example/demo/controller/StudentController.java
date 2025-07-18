@@ -11,6 +11,10 @@ import java.util.List;
 @RestController
 public class StudentController {
 
+    public void abc(){
+        System.out.println("add");
+    }
+
     @Autowired
     StudentService studentService;
 
